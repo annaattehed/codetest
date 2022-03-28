@@ -1,0 +1,179 @@
+/* Styling for homepage  */
+
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+.homepage-h1 {
+  color: #35c092;
+  font-size: 40px;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.homepage-aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-top: 10rem;
+}
+
+/* Styling for page with all products  */
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.product-name {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 1rem;
+}
+.price-container {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 1rem;
+}
+
+.product-img {
+  margin: 1rem;
+}
+
+.link-container {
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+/* Styling for about page */
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 3rem;
+}
+.about-header {
+  font-size: 40px;
+}
+
+.about-header2 {
+  font-size: 32px;
+  color: #35c092;
+}
+
+.about-article {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  margin-left: 26rem;
+  text-align: center;
+  margin-top: 2rem;
+  max-width: 33rem;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10rem;
+}
+
+/* Styling for header  */
+
+nav {
+  background-color: #f2f2f2;
+  margin-top: 2rem;
+}
+
+.logo {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* Styling for single productpage */
+
+.productpage-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin: 5rem;
+}
+
+.productpage-img {
+  max-width: fit-content;
+  margin-bottom: 5rem;
+  margin-left: 50rem;
+}
+
+.productpage-h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-left: 50rem;
+  color: #35c092;
+}
+
+.productpage-description {
+  display: flex;
+  text-align: center;
+  max-width: 25rem;
+  line-height: 24px;
+  font-size: 16px;
+  margin-left: 40rem;
+  margin-top: 10rem;
+}
+
+/* Footer styling */
+
+.Footer {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: #35c092;
+  color: #f2f2f2;
+}
+
+.Footercopy {
+  font-size: 13px;
+}
+
+/* button styling */
+
+button {
+  background-color: #131518;
+  color: #f2f2f2;
+  border: none;
+  width: 15rem;
+  height: 6rem;
+  margin-left: 5.5rem;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #35c092;
+  color: #f2f2f2;
+  border-radius: 50px;
+  font-size: 17px;
+}
+
+.addtocart-button {
+  margin-left: 45rem;
+  margin-top: 2rem;
+}
+/* Color links  */
+
+a {
+  color: #131518;
+}
